@@ -1,0 +1,15 @@
+CREATE TABLE product(productCode INT AUTO_INCREMENT NOT NULL PRIMARY KEY, name VARCHAR(255));
+
+INSERT INTO product(name) VALUES('âîïM');
+INSERT INTO product(name) VALUES('ÉmÅ[Ég');
+INSERT INTO product(name) VALUES('è¡ÇµÉSÉÄ');
+
+SELECT * FROM product;
+
+CREATE TABLE adminUser(userID INT AUTO_INCREMENT NOT NULL PRIMARY KEY, name VARCHAR(255), password VARCHAR(255));
+
+INSERT INTO adminUser(name, password) VALUES('ëÃå±é“', '12345');
+INSERT INTO adminUser(name, password) VALUES('ä«óùé“', '12345');
+INSERT INTO adminUser(name, password) VALUES('égópé“', '12345');
+
+SELECT * FROM adminUser;

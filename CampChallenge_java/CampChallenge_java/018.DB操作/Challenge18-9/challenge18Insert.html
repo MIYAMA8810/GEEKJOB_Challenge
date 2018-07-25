@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>データ挿入フォーム</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        挿入フォーム
+        <form action="./Challenge18InsertServlet" method="post">
+            ID　　　：<input type="number" name="id" size="5" max="30"><br>
+            名前　　：<input type="text" name="name"><br>
+            電話番号：<input type="text" name="tell"><br>
+            年齢　　：<input type="text" name="age" size="3" maxlength="3"><br>
+            誕生日　：<input type="text" name="year" size="3" maxlength="4">年
+            <input type="text" name="month" size="3" maxlength="2">月
+            <input type="text" name="day" size="3" maxlength="2">日<br>
+            <input type="submit" name="submit" value="登録">
+        </form>
+    </body>
+</html>
